@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@hapi/hapi": "^20.2.2",
-    "nanoid": "~3.0.0"
+    "nanoid": "~3.0.0",
+    "pm2": "^5.2.0"
   }
 }
