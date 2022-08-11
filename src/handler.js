@@ -1,5 +1,5 @@
-const { nanoid } = require('nanoid');
-const notes = require('./notes');
+import { nanoid } from 'nanoid';
+import notes from './notes';
 
 const addNoteHandler = (request, h) => {
     const { title, tags, body } = request.payload;
@@ -119,7 +119,7 @@ const deleteNoteByIdHandler = (request, h) => {
     return response;
 };
 
-module.exports = { 
+export default { 
     addNoteHandler, 
     getAllNotesHandler, 
     getNotedByIdHandler, 
