@@ -1,5 +1,5 @@
 import { server as _server } from '@hapi/hapi';
-import routes from './routes';
+import routes from './routes.js';
 
 const init = async () => {
     const server = _server({
